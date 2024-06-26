@@ -13,20 +13,23 @@ content-type: application/json
 GET http://127.0.0.1:8000/cats/
 
 ###
-POST http://127.0.0.1:8000/cat/1/
+GET http://127.0.0.1:8000/cat/1/
+
+###
+POST http://127.0.0.1:8000/cats/
 content-type: application/json
 
 {
-    "name": "Vas'ka",
-    "color": "yellow",
-    "birth_year": 2021
+    "name": "Phfurupsik",
+    "color": "magnetts",
+    "birth_year": 2024
 }
 
 ###
-PATCH http://127.0.0.1:8000/cat/1/
+PATCH http://127.0.0.1:8000/cat/4/
 content-type: application/json
 
 {
-    "name": "Murka",
+    "name": "hgfdyh",
     "color": "white"
 }
