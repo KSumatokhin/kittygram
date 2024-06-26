@@ -1,0 +1,32 @@
+GET http://127.0.0.1:8000/hello/
+
+###
+POST http://127.0.0.1:8000/hello/
+content-type: application/json
+
+{
+    "sdfsf": "sdffr",
+    "fsdfs": "asr"
+}
+
+###
+GET http://127.0.0.1:8000/cats/
+
+###
+POST http://127.0.0.1:8000/cat/1/
+content-type: application/json
+
+{
+    "name": "Vas'ka",
+    "color": "yellow",
+    "birth_year": 2021
+}
+
+###
+PATCH http://127.0.0.1:8000/cat/1/
+content-type: application/json
+
+{
+    "name": "Murka",
+    "color": "white"
+}
